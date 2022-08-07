@@ -11,7 +11,7 @@
 
 <body>
 
-  <header class="bg-warning py-4 mb-4">
+  <div class="bg-warning py-4 mb-4">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -64,9 +64,8 @@
         </div>
       </div>
     </div>
-  </header>
+    </в>
 
-  <main>
     <div class="container">
       <div class="row">
 
@@ -150,58 +149,58 @@
         </div>
       </div>
     </div>
-  </main>
+    </main>
 
-  <footer class="bg-primary py-5 mt-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-light text-center">&#169;Falcon Studio, Ukraine 🇺🇦</div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modal-label">Форма обратной связи</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="https://tests.fomenko.top/echo/index.php" method="get">
-            <div class="mb-3">
-              <label for="name" class="form-label">Имя</label>
-              <input name="name" type="text" class="form-control" id="name" placeholder="Имя" required>
-            </div>
-            <div class="mb-3">
-              <label for="tel" class="form-label">Телефон:</label>
-              <input name="tel" type="tel" class="form-control" id="tel"
-                pattern="+380-[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{2}" placeholder="+380-XX-XXX-XX-XX">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input name="email" type="email" class="form-control" id="email" placeholder="email">
-            </div>
-            <div class="mb-3 form-check">
-              <input name="systemchack" type="checkbox" class="form-check-input" id="check">
-              <label class="form-check-label" for="check">уже есть в системе</label>
-            </div>
-            <select name="city" class="form-select mb-3" id="city" aria-label="Ваш город">
-              <option value="kharkiv">Харьков</option>
-              <option value="lviv">Львов</option>
-              <option value="kyiv">Киев</option>
-            </select>
-            <div class="d-grid gap-2 d-md-block">
-              <button type="submit" class="btn btn-outline-success">Отправить</button>
-              <button type="reset" class="btn btn-outline-danger">Стереть</button>
-            </div>
-          </form>
+    <div class="bg-primary py-5 mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-light text-center">&#169;Falcon Studio, Ukraine 🇺🇦</div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-label">Форма обратной связи</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="https://tests.fomenko.top/echo/index.php" method="get">
+              <div class="mb-3">
+                <label for="name" class="form-label">Имя</label>
+                <input name="name" type="text" class="form-control" id="name" placeholder="Имя" required>
+              </div>
+              <div class="mb-3">
+                <label for="tel" class="form-label">Телефон:</label>
+                <input name="tel" type="tel" class="form-control" id="tel"
+                  pattern="+380-[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{2}" placeholder="+380-XX-XXX-XX-XX">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input name="email" type="email" class="form-control" id="email" placeholder="email">
+              </div>
+              <div class="mb-3 form-check">
+                <input name="systemchack" type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="check">уже есть в системе</label>
+              </div>
+              <select name="city" class="form-select mb-3" id="city" aria-label="Ваш город">
+                <option value="kharkiv">Харьков</option>
+                <option value="lviv">Львов</option>
+                <option value="kyiv">Киев</option>
+              </select>
+              <div class="d-grid gap-2 d-md-block">
+                <button type="submit" class="btn btn-outline-success">Отправить</button>
+                <button type="reset" class="btn btn-outline-danger">Стереть</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
